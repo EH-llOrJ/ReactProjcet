@@ -8,7 +8,7 @@ function reducer(state = init, action) {
   const { type, payload } = action;
   switch (type) {
     case "LOGIN":
-      alert("로그인 됐다???");
+      alert("로그인 됐다");
       console.log(payload);
       return { ...state, id: payload.id, pw: payload.pw, isLogin: true };
     case "LOGOUT":

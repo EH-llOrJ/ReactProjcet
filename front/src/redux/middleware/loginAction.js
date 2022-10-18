@@ -10,7 +10,7 @@ function login(id, pw) {
         pw,
       },
     });
-    console.log(user);
+    // console.log(user);
     if (user.data) {
       dispatch({ type: "LOGIN", payload: { id, pw } });
     } else {

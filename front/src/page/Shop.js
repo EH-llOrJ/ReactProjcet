@@ -6,7 +6,12 @@ const Shop = () => {
     <div>
       <Header />
       <Nav />
-      <div className="shop-body">샵</div>
+      <div className="shop-body">
+        <div className="shop-imgdiv"></div>
+        <div className="shop-imgdiv"></div>
+        <div className="shop-imgdiv"></div>
+        <div className="shop-imgdiv"></div>
+      </div>
     </div>
   );
 };

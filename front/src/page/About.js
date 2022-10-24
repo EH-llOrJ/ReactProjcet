@@ -10,7 +10,7 @@ const About = () => {
       <Nav />
       <div className="about-body">
         <img className="about-imgBox" src={img_about1} alt=""></img>
-        {/* <img className="about-imgBox img__hover" src={img_about2} alt=""></img> */}
+        <img className="about-imgBox img__hover" src={img_about2} alt=""></img>
       </div>
       <Footer />
     </div>

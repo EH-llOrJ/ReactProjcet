@@ -84,8 +84,30 @@
 }
 
 .about-body {
-  background-color: aqua;
+  background-color: gainsboro;
   width: 100%;
   height: 1000px;
   text-align: center;
+}
+
+.notify-body {
+  background-color: blue;
+  color: white;
+  font-size: 100px;
+  margin: 100px 100px;
+  width: 1000px;
+}
+
+.about-imgBox {
+  position: absolute;
+  left: 0px;
+}
+
+.about-body > img {
+  width: 900px;
+  height: 900px;
+}
+
+.img__hover {
+  opacity: 0.02;
 }

@@ -6,7 +6,11 @@ const Notify = () => {
     <div>
       <Header />
       <Nav />
-      <div className="about-body">notify</div>
+      <div className="about-body notify-body">
+        PRE-ORDER
+        <br />
+        Notification
+      </div>
       <Footer />
     </div>
   );

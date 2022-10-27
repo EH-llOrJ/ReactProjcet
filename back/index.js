@@ -8,7 +8,7 @@ const { sequelize, user } = require("./public");
 sequelize
   .sync({ force: false })
   .then(() => {
-    console.log("연결이 잘 됐다.");
+    console.log("DB 연결이 잘 됐다.");
   })
   .catch((err) => {
     console.log(err);

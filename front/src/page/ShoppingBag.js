@@ -6,7 +6,7 @@ const ShoppingBag = () => {
     <div>
       <Header />
       <Nav />
-      <div className="about-body">쇼핑백</div>
+      <div className="basic-body">쇼핑백</div>
       <Footer />
     </div>
   );

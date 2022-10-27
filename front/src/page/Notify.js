@@ -6,7 +6,7 @@ const Notify = () => {
     <div>
       <Header />
       <Nav />
-      <div className="about-body notify-body">
+      <div className="basic-body notify-body">
         PRE-ORDER
         <br />
         Notification

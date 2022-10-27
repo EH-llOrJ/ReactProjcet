@@ -6,7 +6,7 @@ const Account = () => {
     <div>
       <Header />
       <Nav />
-      <div className="about-body">account</div>
+      <div className="basic-body">account</div>
       <Footer />
     </div>
   );

@@ -14,57 +14,56 @@
   background-color: white;
   display: flex;
 }
-
 .body img {
   width: 330px;
   height: 600px;
 }
-
 .nav-section {
   display: flex;
   justify-content: space-around;
   background-color: #24292f;
   padding: 20px;
 }
-
 .nav-section-inside {
   text-align: center;
   display: flex;
   justify-content: center;
 }
-
 .inside-left {
   width: 20%;
 }
-
 .inside-center {
   width: 60%;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
 }
-
 .inside-right {
   width: 20%;
+  font-size: 12px;
+  padding-top: 10px;
 }
-
 .nav-home-div {
   width: 80px;
 }
-
-.nav-home-div > a {
+/* .nav-home-div > a {
+  text-decoration-line: none;
+  color: white;
+  height: 50px;
+} */
+a {
   text-decoration-line: none;
   color: white;
   height: 50px;
 }
-
 .nav-home-div {
   width: 100px;
 }
-
 .nav-home-div > img {
   width: 30px;
   height: 30px;
   position: absolute;
 }
-
 .center-div {
   position: absolute;
   top: 50%;
@@ -78,7 +77,6 @@
   justify-content: space-evenly;
   align-items: center;
 }
-
 .center-div-borad {
   position: absolute;
   top: 50%;
@@ -92,7 +90,6 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .body > img {
   width: 1000px;
   height: 100%;
@@ -101,21 +98,18 @@
   transform: translate(-50%, 0%);
   padding: 20px;
 }
-
 .footer {
   background-color: blue;
   color: white;
   text-align: center;
   padding: 50px;
 }
-
-.about-body {
-  background-color: gainsboro;
+.basic-body {
+  background-color: #e5e7eb;
   width: 100%;
   height: 1000px;
   text-align: center;
 }
-
 .notify-body {
   background-color: blue;
   color: white;
@@ -123,17 +117,37 @@
   margin: 100px 100px;
   width: 1000px;
 }
-
 .about-imgBox {
+  width: 1000px;
+  height: 100%;
   position: absolute;
-  left: 0px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding: 20px;
 }
-
-.about-body > img {
+.basic-body > img {
   width: 900px;
   height: 900px;
 }
-
-.img__hover {
-  opacity: 0.02;
+.img__h {
+  opacity: 1;
+}
+.img__hover:hover {
+  opacity: 0;
+  transition: opacity 0.25s linear;
+}
+.shop-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.shop-imgdiv {
+  width: 300px;
+  height: 300px;
+  margin: 50px 50px;
+  border: 1px solid black;
+}
+.shop-body-content {
+  position: absolute;
+  right: 0px;
 }

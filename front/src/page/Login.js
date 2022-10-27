@@ -4,6 +4,7 @@ import { Button, LoginInput } from "../components/StyledCom";
 import { loginAction } from "../redux/middleware/loginAction";
 import { useDispatch, useSelector } from "react-redux";
 import { Header, Nav } from "../components";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   // const nav = useNavigate();
@@ -21,9 +22,10 @@ const Login = () => {
     dispatch(loginAction.logout());
   };
 
-  useEffect(() => {
-    console.log(isLogin);
-  }, [isLogin]);
+  // 리렌더링 되는지 확인해보기 위함
+  // useEffect(() => {
+  //   console.log(isLogin);
+  // }, [isLogin]);
   return (
     <div className="div-login-ui">
       <Header title="로그인 페이지" />
@@ -32,6 +34,9 @@ const Login = () => {
         {isLogin ? (
           <>
             <div>{userName}님 로그인 완료</div>
+            <Button className="account-btn">
+              <Link to="/account">ACCOUNT</Link>
+            </Button>
             <Button onClick={logout}>로그아웃</Button>
           </>
         ) : (

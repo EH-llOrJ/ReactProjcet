@@ -27,7 +27,7 @@ function logout() {
   };
 }
 
-function signUp(id, pw, setWrap) {
+function signUp(id, pw) {
   return async (dispatch, getState) => {
     const user = await axios({
       method: "post",

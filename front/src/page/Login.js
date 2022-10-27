@@ -28,7 +28,8 @@ const Login = () => {
   // }, [isLogin]);
   return (
     <div className="div-login-ui">
-      <Header title="로그인 페이지" />
+      {/* <Header title="로그인 페이지" /> */}
+      <Header />
       <Nav />
       <div className="center-div">
         {isLogin ? (

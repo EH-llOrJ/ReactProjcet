@@ -6,10 +6,12 @@ const Notify = () => {
     <div>
       <Header />
       <Nav />
-      <div className="basic-body notify-body">
-        PRE-ORDER
-        <br />
-        Notification
+      <div className="basic-body ">
+        <div className="notify-body">
+          PRE-ORDER
+          <br />
+          Notification
+        </div>
       </div>
       <Footer />
     </div>

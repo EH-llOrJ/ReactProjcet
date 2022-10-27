@@ -15,7 +15,8 @@ const Join = () => {
   };
   return (
     <div className="div-login-ui">
-      <Header title="회원가입" />
+      {/* <Header title="회원가입" /> */}
+      <Header />
       <Nav />
       <div className="center-div">
         <LoginInput

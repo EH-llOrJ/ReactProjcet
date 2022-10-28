@@ -11,6 +11,9 @@ const Notify = () => {
           PRE-ORDER
           <br />
           Notification
+          <br />
+          <br />
+          ANTI-GAP
         </div>
       </div>
       <Footer />

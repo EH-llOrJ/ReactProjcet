@@ -6,7 +6,13 @@ const ShoppingBag = () => {
     <div>
       <Header />
       <Nav />
-      <div className="basic-body">쇼핑백</div>
+      <div className="basic-body">
+        <div className="test-body">
+          <div className="test-body1">#</div>
+          <div className="test-body2">상품명</div>
+          <div className="test-body3">가격</div>
+        </div>
+      </div>
       <Footer />
     </div>
   );
